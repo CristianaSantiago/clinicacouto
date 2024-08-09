@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(/css/style.css);
+
+/* mobile */
+
+@media (max-width: 475px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header{
+    display: flex;
+    flex-direction: row;
+    width: 475px;
+    justify-content: space-between;
+  }
+  .img_logo{
+    width: 80px;
+    height: 80px;
+  }
+  header h4, h3{
+    display: none;
+  }
+  #container {
+    display: none;
+  }
+  .navbar, .nav_iten {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    color: black;
+  }
+  #offcanvas{  
+    display: flex;
+    float: right;
+    background-color: #9c9e9d;
+
+  }
+  .whatsapp{   
+    display: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 70px;
+    position:fixed;
+    z-index: 100;
+  }
+
+  #banner{
+    background-image: url(/img/banner1.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;  
+    width: 475px;
+    padding-top: 8rem;
+    color: #F8EDFF;
+    font-weight: 500;
+  }
+  h1{
+    padding: 8rem 0 1rem 4rem;
+    font-size: 2rem;
+    text-transform: uppercase; 
+  }
+  span{
+    font-weight: 800;
+    color:#DC6B19;
+  }
+  .text-banner{
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 3rem 0 0 4rem;
+    text-transform: uppercase;
+  }
+
+  .botao_1{
+    margin: 3rem 0 0 4rem;
+    padding-bottom: 1rem;
+  }
+  #Especialidades{
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+  }
+  .card{
+    margin: 0 0 0 2rem;
+    width: 300px;
+    height: 400px;
+    box-shadow: 0px 0px 12px 4px var(--color-3); 
+  }
+    .card-text{
+    display: none;
+  }
+  .box-sobrenos{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #F6F5F2;
+  }
+  .conteudo-sobrenos{
+    display: flex;
+    flex-direction:column;
+    /* background-color: whitesmoke; */
+    padding: 0;
+    width: 100%;
+    height: 30vh;  
+    box-shadow: 2px 2px 12px 8px rgb(0, 0, 0, 0.1);
+    margin: 0;
+  }
+  .text-sobrenos{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.2rem;
+    padding: 1rem 1rem;
+  }
+  .img-sobrenos-fluid{
+    display: none;
+  }
+  #horarios{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    /* background-color: #9c9e9d; */
+  }
+  .box_horario{
+    display:flex;
+    flex-direction: row; 
+    padding: 0 1rem;     
+  }
+  .box_horario i, h2 {
+    font-size: 1rem;
+  }
+  /* .horas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    background-color: #9c9e9d;
+  } */
+  .horas{
+    padding: 2rem 0 0 0;
+    margin: 0;
+  }
+  p.horas1{
+    font-weight: 500;
+  }
+  section .horas1 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-size: 1rem;    
+    padding: 0; 
+    margin: 0;
+  }
+  .equipe{
+    justify-content: center;
+    padding: 1rem 0;
+    margin: 0;
+  }
+  .box-equipe{
+    flex-direction: column;
+    justify-items: center;
+  }
+  .perfil-img{
+    margin-left: 9rem;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+  }
+  .doctor{
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+  }  
+  .whatsapp{
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    bottom: 40px;
+  }
+  div#offcanvas{
+    background-color: #3d3b40;
+   }
+  .btn-offcanvas{
+    background-color:var(--color-3);   
+    padding: 1rem;
+    border-radius: 20px;
+  }
+  
+  .offcanvas-header{
+    text-align: center;
+  }
+  .offcanvas-body{
+    background-color: black;
+  }
+  ul#navbar {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-top: -1rem;
+  }
+}

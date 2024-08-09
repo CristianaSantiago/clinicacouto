@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(/css/style.css);
+
+:root{
+  --color-1:#9c9e9d;
+  --color-2:#F8EDFF;
+  --color-3:#3D3B40;
+  --color-4:#860A35;
+  --color-5:#FFC94A;
+  --color-6:#DC6B19;
+}
+
+
+.box_contato{
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-evenly;
+  padding: 2rem 0 2rem 0;
+}
+
+.fale_conosco{
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 2rem 5rem;
+}
+.box_redes a{
+  text-decoration: none;
+  color: #3D3B40;
+  text-align: center;
+  justify-items: center;
+  padding: 2rem;
+}
+.titulo_redes{
+  padding: 1rem 2rem ;
+}
+
+section ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 1rem 2rem;
+}
+
+/* endereço */
+#mapa, h2{
+  padding-bottom: 2rem;
+}
+#mapa, h3{
+  text-align: center;
+  padding:  0 0  2rem 0 ;
+}
+

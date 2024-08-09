@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(/css/style.css);
+
+:root{
+  --color-1:#9c9e9d;
+  --color-2:#F8EDFF;
+  --color-3:#3D3B40;
+  --color-4:#860A35;
+  --color-5:#FFC94A;
+  --color-6:#DC6B19;
+}
+
+/* banner */
+#banner{   
+  background-image: url(/img/banner1.png);
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;   
+  width: 100%;
+  height: 100vh;
+  padding-top: 5rem;
+  color: #F8EDFF;
+  font-weight: 800;
+}
+h1{
+  padding: 20rem 0 1rem 10rem;
+  font-size: 5rem;
+  text-transform: uppercase; 
+}
+span{
+  font-weight: 800;
+  color:#DC6B19;
+}
+.text-banner{
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-left: 10rem;
+  text-transform: uppercase;
+}
+.botao_1{
+  display: flex;
+  margin-left: 10rem;
+  z-index: 4;
+  background-color: #3D3B40;
+  color: #F0EBE3;
+  border-radius: 20px;
+  padding: 1rem;
+  font-weight: 500;
+  box-shadow: 0px 0px 12px 4px var(--color-3);
+}
+.botao_1:hover{
+  background: var(--color-5);
+  color: #3D3B40;
+  font-weight: 500;
+}
+.social-media-buttons {
+  display: flex;
+  gap: 18px;
+  margin: 1.5rem 0 0 5rem;  
+}
+.social-media-buttons a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 40px;
+  font-size: 1.25rem;
+  border-radius: 10px;
+  text-decoration: none;
+  color: red;
+  box-shadow: 0px 0px 12px 4px rgb(0, 0, 0, 0.1);
+  transition: box-shadow .3s ease; 
+}
+.social-media-buttons a:hover {
+  box-shadow: 0px 0px 12px 8px rgb(0, 0, 0, 0.1);
+}
+
+/* titulos */
+.titulo_sobreNos, .titulo_especialidades, .titulo_testemunhos, .titulo_contatos, .titulo_especialidades, .Endereço, .equipe_titulo
+{
+  text-align: center;
+  padding: 3rem 0 3rem 0;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 600;  
+  color: #3D3B40;
+}
+
+/* fotos clinicas */
+
+.fotos_clinica{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-bottom: 3rem;
+}
+.img_clinica{
+  width:635px;
+  height:400px;
+  display:flex; 
+}
+.img_clinica:hover{
+  border: 5px solid  var(--color-6);
+  opacity: 0.6;
+}
+
+/* testemunhos */
+.box-testemunhos{
+  display:flex;
+  flex-direction: row;
+  height: 40vh;
+  margin: 2rem 0 2rem 0;
+}
+.card_testemunho{
+  border-radius: 10px;
+  box-shadow: 0px 0px 12px 4px var(--color-3);
+  margin: 0 2.5rem 0 3rem;
+}
+.avaliacao i {
+  color: var(--color-6);
+}

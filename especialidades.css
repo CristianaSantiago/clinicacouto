@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(/css/style.css);
+
+:root{
+  --color-1:#9c9e9d;
+  --color-2:#F8EDFF;
+  --color-3:#3D3B40;
+  --color-4:#860A35;
+  --color-5:#FFC94A;
+  --color-6:#DC6B19;
+}
+
+#Especialidades{
+  padding: 2rem 0 2rem 4rem;
+}
+.card{
+  width: 300px;
+  height: 630px;
+  box-shadow: 0px 0px 12px 4px var(--color-3); 
+}
+.card-img-top{
+  height: 300px;
+}
+.col{
+  padding-bottom: 2rem;
+}
+.row{
+  margin: 1rem 0 1 1rem 1rem;
+  padding-left: 2.5rem;
+}

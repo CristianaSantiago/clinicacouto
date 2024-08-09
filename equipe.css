@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(/css/style.css);
+
+:root{
+  --color-1:#9c9e9d;
+  --color-2:#F8EDFF;
+  --color-3:#3D3B40;
+  --color-4:#860A35;
+  --color-5:#FFC94A;
+  --color-6:#DC6B19;
+}
+#equipe{ 
+  margin: 2rem 0;
+}  
+.equipe{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  text-align: center;
+  padding: 3rem  5rem 0 0;
+}
+.box-equipe{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  text-align: center;
+}
+#perfil {
+  margin: 2rem 0 2rem 0;
+}
+
+.perfil{
+  margin: 2rem 0 0 2rem;
+  width: 100%;
+}
+.perfil-img{
+  width: 300px;
+  height: 300px;
+  border-radius: 80%;
+  text-align: center;
+  justify-content: center;
+}
+.doctor{
+  margin-left: 2rem;
+  text-align: center;
+  justify-items: center;
+}
